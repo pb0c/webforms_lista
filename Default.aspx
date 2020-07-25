@@ -37,17 +37,17 @@
     <asp:GridView ID="GridView1" runat="server"
         AutoGenerateColumns="false" >
         <Columns>
-            <asp:BoundField DataField="rut" HeaderText="Rut" />
-            <asp:BoundField DataField="nombre" HeaderText="Nombre" />
-            <asp:BoundField DataField="apellidoP" HeaderText="Apellido" />
-            <asp:BoundField DataField="apellidoM" HeaderText="Apellido" />
-            <asp:BoundField DataField="fdenac" HeaderText="F. de Nac" />
-            <asp:BoundField DataField="tel" HeaderText="Teléfono" />
-            <asp:BoundField DataField="prev" HeaderText="Previsión" />
-            <asp:BoundField DataField="calle" HeaderText="Calle" />
-            <asp:BoundField DataField="numCalle" HeaderText="Calle Número" />
-            <asp:BoundField DataField="actividad" HeaderText="Actividad" />
-            <asp:BoundField DataField="deporte" HeaderText="Deporte" />
+            <asp:BoundField DataField="_rut" HeaderText="Rut" />
+            <asp:BoundField DataField="_nombre" HeaderText="Nombre" />
+            <asp:BoundField DataField="_apellidoP" HeaderText="Apellido" />
+            <asp:BoundField DataField="_apellidoM" HeaderText="Apellido" />
+            <asp:BoundField DataField="_fdenac" HeaderText="F. de Nac" />
+            <asp:BoundField DataField="_telefono" HeaderText="Teléfono" />
+            <asp:BoundField DataField="_prevision" HeaderText="Previsión" />
+            <asp:BoundField DataField="_calle" HeaderText="Calle" />
+            <asp:BoundField DataField="_numCalle" HeaderText="Calle Número" />
+            <asp:BoundField DataField="_actividad" HeaderText="Actividad" />
+            <asp:BoundField DataField="_deporte" HeaderText="Deporte" />
         </Columns>
 
     </asp:GridView>

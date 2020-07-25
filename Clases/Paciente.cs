@@ -7,17 +7,17 @@ namespace Evaluacion3.Clases
 {
     public class Paciente
     {
-		private string _rut { get; set; }
-		private string _nombre { get; set; }
-		private string _apellidoP { get; set; }
-		private string _apellidoM { get; set; }
-		private string _fdenac { get; set; }
-		private string _telefono { get; set; }
-		private string _prevision { get; set; }
-		private string _calle { get; set; }
-		private int _numCalle { get; set; }
-		private string _actividad { get; set; }
-		private string _deporte { get; set; }
+		public string _rut { get; set; }
+		public string _nombre { get; set; }
+		public string _apellidoP { get; set; }
+		public string _apellidoM { get; set; }
+		public string _fdenac { get; set; }
+		public string _telefono { get; set; }
+		public string _prevision { get; set; }
+		public string _calle { get; set; }
+		public int _numCalle { get; set; }
+		public string _actividad { get; set; }
+		public string _deporte { get; set; }
 
 
 		public Paciente(string rut, string nombre, string apellidoP, string apellidoM, string fdenac, string telefono, string prevision, string calle, int numCalle, string actividad, string deporte)
